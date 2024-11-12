@@ -24,23 +24,17 @@ git clone https://github.com/hanch7274/study_planner.git
 cd study_planner
 
 2. 가상환경 생성 및 활성화
+```
 python -m venv venv
 source venv/bin/activate # Windows: venv\Scripts\activate
+```
 
 3. 필요한 패키지 설치
+```
 pip install -r requirements.txt
+```
 
 4. 실행
+```
 uvicorn main:app --host 0.0.0.0 --port 8000
-
-## 📁 프로젝트 구조
-study_planner/
-├── frontend/
-│ └── app.py
-├── backend/
-│ └── api.py
-├── database/
-│ └── db.py
-├── .env.example
-├── requirements.txt
-└── README.md
+```
