@@ -1,0 +1,13 @@
+#파이썬 캐시 파일
+__pycache__/
+
+# 스트림릿 캐시 파일
+.streamlit
+
+# 데이터베이스 파일
+*.db
+*.sqlite3
+
+#IDE 설정
+.idea/
+.vscode/
