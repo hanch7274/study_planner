@@ -733,7 +733,7 @@ async def display_progress(member: dict, goals: List[dict], color: str):
         # 프로그레스 바
         st.progress(progress)
     else:
-        # 목표가 없는 경우
+        # 목표가  없는 경우
         st.markdown(f"""
             <div style="padding: 10px; margin: 5px 0; border-left: 3px solid {color};">
                 <div style="margin-bottom: 5px;">
